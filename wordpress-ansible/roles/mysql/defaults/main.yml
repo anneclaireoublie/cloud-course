@@ -1,6 +1,0 @@
----
-wp_mysql_db: wordpress
-wp_mysql_user: wordpress
-wp_mysql_password: oublie
-wp_mysql_host: 51.158.167.44
-# defaults file for mysql
