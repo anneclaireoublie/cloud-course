@@ -4,7 +4,7 @@ Ansible part
 
 Ansible file : playbook.yml
 
-Use the command : Ansible-playbook playbook.yml -i hosts
+Use the command : ansible-playbook playbook.yml -i hosts
 
 Terraform part
 
@@ -17,11 +17,11 @@ Put your token and organization in a file variables.tfvars*
 
 Then use the commands 
 
--	Terraform init
+-	terraform init
 
--	Terraform plan -var-file=”variables.tfvars »
+-	terraform plan -var-file=”variables.tfvars »
 
--	Terraform apply -var-file= “variables.tfvars”
+-	terraform apply -var-file= “variables.tfvars”
 
 Packer part
 
